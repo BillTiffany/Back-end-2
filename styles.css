@@ -14,9 +14,23 @@ header {
   justify-content: center; 
   align-items: center;
   color: darkslategray;
-  background-color: turquoise;
+  background: rgb(18,218,199);
+background: linear-gradient(180deg, rgba(18,218,199,1) 20%, rgba(255,255,255,1) 63%);
   background-size: cover;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-radius: 35px;
 }
+
+header:hover {
+  color: black;
+  cursor: pointer;
+}
+
+header:active {
+  transform: scale(.9,.9);
+}
+
 
 main {
   display: flex; 
@@ -33,6 +47,7 @@ form {
   justify-content: space-evenly; 
   align-items: center;
   margin: 30px;
+  min-width: 280px;
 }
 
 button {
@@ -40,11 +55,16 @@ button {
   border-radius: 15px;
   width: 75px;
   height: 25px;
-  color: white;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(18,218,199,1) 63%);
   border: none;
   margin: 5px;
   -webkit-box-shadow: 2px 5px 9px 0px rgba(0,0,0,0.83); 
-box-shadow: 2px 5px 9px 0px rgba(0,0,0,0.83);
+  box-shadow: 2px 5px 9px 0px rgba(0,0,0,0.83);
+}
+
+button:active {
+  transform: scale(.9,.9);
 }
 
 input[type='text'] {
@@ -79,7 +99,9 @@ input[type='text'] {
   height: 300px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  border: white 2px solid;
 }
+
 
 .house-card {
   background-color: turquoise;
@@ -96,6 +118,7 @@ input[type='text'] {
 .house-address {
   font-size: 18px;
   margin: 5px 0;
+  background-color: snow;
 }
 
 .house-price {

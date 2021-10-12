@@ -1,5 +1,5 @@
 const houses = require('./db.json')
-let globalId = 4
+let globalId = 6
 
 module.exports = {
     getHouses: (req,res) =>{
@@ -31,8 +31,8 @@ module.exports = {
 
             let index = houses.findIndex((elem) => +elem.id=== +id)
     // console.log(houses[index],type)
-    if(houses[index].price === 0 && type === 'minus'){
-        res.status(400).send('Cannot be a negative value')
+    if(houses[index].price <= 0 && type === 'minus'){
+        res.status(400).send('House price Cannot be a negative value')
     }else if(type === 'plus'){
         houses[index].price += 10000
         res.status(200).send(houses)

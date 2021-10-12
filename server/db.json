@@ -16,5 +16,18 @@
     "address": "Taj Road",
     "price": 169000,
     "imageURL" : "https://robbreport.com/wp-content/uploads/2013/06/831971.jpg?w=943"
+  },
+  {
+    "id": 4,
+    "address": "12345 Rockin road",
+    "price": 200000,
+    "imageURL" : "https://www.gannett-cdn.com/-mm-/2887f5d7d58a75a6437c45e987fd994202334aff/c=0-156-3000-1844/local/-/media/2018/04/10/DetroitNews/B99646966Z.1_20180410190329_000_G8T1UMP19.2-0.jpg?width=3000&height=1688&fit=crop&format=pjpg&auto=webp"
+  },
+  {
+    "id": 5,
+    "address": "23 Paris rd",
+    "price": 250000,
+    "imageURL" : "https://images.france.fr/zeaejvyq9bhj/1q80wA2dmc4S2QicA6m0Gg/5e055fe87f6b4049936e205a8623decf/flickr_-_cc_-_manuel_paternity_-_no_modification-_no_commercial_use.jpg"
   }
+
 ]
